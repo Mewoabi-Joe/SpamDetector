@@ -25,7 +25,7 @@ def detector():
     print("Ce mail est un ham à ",p[1],"%")
     print("Ce mail est un spam à",p[0],"%")
 
-    message = "ce mail est un spam à " + str(p[0]) + " %."
+    message = "ce mail est un spam à " + str(p[0]*100) + " %."
 
     return message
 
